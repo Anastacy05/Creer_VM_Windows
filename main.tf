@@ -12,7 +12,7 @@ terraform {
 # =========================================================================
 
 provider "xenorchestra" {
-  url      = "ws://127.0.0.1:80"
+  url      = "ws://127.0.0.1:100"
   username = "admin@admin.net"
   password = "admin"
   insecure = true
